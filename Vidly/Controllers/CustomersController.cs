@@ -9,6 +9,19 @@ namespace Vidly.Controllers
 {
     public class CustomersController : Controller
     {
+        private ApplicationDbContext _context;
+
+        public CustomersController()
+        {
+            _context = new ApplicationDbContext();
+        }
+
+        protected override void Dispose(bool disposing)
+        {
+            _context.Dispose();
+        }
+
+
         private IEnumerable<Customer> GetCustomers()
         {
             return new List<Customer>

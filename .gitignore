@@ -266,3 +266,9 @@ Vidly/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 Vidly/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 Vidly/bin/Antlr3.Runtime.pdb
 Vidly/bin/Antlr3.Runtime.dll
+
+packages/
+
+Vidly/bin/
+
+Vidly/obj/
